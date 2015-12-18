@@ -1,6 +1,6 @@
 # Fabulous developer quotes
 
-This is a collection of quotes for developers. Motivation about the things that really matter in life: Bugs, release cycles and launch dates. 
+This is a collection of quotes for developers. Motivation about the things that really matter in life: Bugs, release cycles and launch dates. It includes a collection of a few hundred quotes with author, just look at the `quotes.json`.
 
 ## How to use it
 
