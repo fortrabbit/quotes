@@ -1,31 +1,22 @@
-# Fabulous developer quotes
+See all the quotes here in the gh-pages branch: http://fortrabbit.github.io/quotes/
 
-This is a collection of quotes for developers. Motivation about the things that really matter in life: Bugs, release cycles and launch dates. It includes a collection of a few hundred quotes with author, just look at the `quotes.json`.
+# Quotes for developers
 
-## How to use it
+People like the quote of the day in our Dashboard. So this is all of them. This is our list of hand-collected quotes for developers. Motivation about the things that really matter in life: Bugs, release cycles and launch dates. It includes a collection of a few hundred quotes with author. Source is the `quotes.json`.
 
-Do what ever you want with it. Use at own risk. Due to our background quotes are PHPish. Sources have not been researched. We have included this as a subtree in our Dashboard and we print a different quote each day on our Dashboard.
+## How to contribute
 
-## Examples
+Fork repo, add changes, pull-request. Please update both: json & php file.
 
-> On the Internet, nobody knows you’re a dog.
-
-Peter Steiner
-
----
-
-> One man’s constant is another man’s variable.
-
-Alan J. Perlis
-
----
-
-> Code never lies, comments sometimes do.
-
-Ron Jeffries
-
-
-
-## Build JSON from PHP
+## How to build JSON from PHP
 
 `php -r 'echo json_encode(include("quotes.php"), JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);' > quotes.json`
+
+## TODO
+
+* Make the gh-pages branch use the master source of the JSON file
+* Make gh-pages perform better
+
+## License
+
+WTFPL
