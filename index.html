@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<style type="text/css">
+    .twittericon {
+        position: absolute;
+        top:   -.7rem;
+        right: -.4rem;
+        border-radius: 100%;
+        display: inline-block;
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width:            22px;
+        height:           22px;
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACZUlEQVRYR92XzXEaQRCFv+aAfTMZmAyMI2AcgZWB4CLgZBSBcQRCJ4wvQhEYR6BRBEYRWERgcbN1YFw97LKwP+xPCatKXaUqHWa6377uef0QnjnkmevzsgCYiesgnCKYgNkFYKnzxXblYZdtM3HGDsRuGdDLdiCzKi0x31wLxxXQyrj/wJpzXjPnkY84FOjS9qTjAZipOwG+s6ZbFoS5cg3+8hOhWQL8ijpNZSUEMAI++wSOoe3LZdFkZuqUtdOi54ElMATesEZCAPEkc+p0432LF/Ff/8jvEsWjo447XmGSDERHdGiGtifXWQV0kKhxUxpAUHy3BZsZSAvHPcIoDYiZOqXyohQAx53ty3ZYo1cwdffA2wPJlBGLw0qNxc2Z3G6HtxQCbm1PwmcaCVFlOssV19NJAGbq9BX8wvEeoeMn9FjhuLR90db52AzhVzdG+HSsmrG857Yn430AoRD9DwRrPqgE7wEIWFggvDsyhpXtSWO3RvQKNnquyI7Xf7hW/U8F4FlQEGtmR2MiRv92CENEXlr/0KDGCEe75ILJ655uv8TC2jMkgbarID19G1K+PsGAb8NGEzab8anC8cP2ReU+EamWrMKKPQR1xZqWHYgyWwyAZ0Ltlc7C4f2Qz1EG9QkdyMpkJq5JDfUL7fxqsRMFHNZBV+y3neOiwmtQ2odF7F0CQLAV24FxLOPzws9fIpzYM1FHnBsS7HTdTuUp3k+/AsbUGedZud1re7acml/FZYGoyZypgmZN+iEa0lqgtKvXU9ei/+tf5JTUz+Ftmi6veVGqs0C8rJ9muRNXRoiqJKty5x9a5N9F1ISw7gAAAABJRU5ErkJggg==');
+    }
+    .twittericon:hover { 
+        background-color: black;
+        box-shadow: 0 0 0 1px black;
+    }
+</style>
+
+
+<main role="main">
+    <div class="row gutter-l wrap">
+        {% for quote in site.data.quotes %}
+        <blockquote class="hero-quote third half-t">
+            <p class="type-l p-m">
+                {{ quote.text }}
+            </p>
+            <div class="m-top-m" role="author">{{ quote.author }}</div>
+            <a class="twittericon" target="_blank" data-tooltip="Tweet this quote" href="https://twitter.com/intent/tweet?text={{ quote.text| cgi_escape }}"></a>
+        </blockquote>
+        {% endfor %}
+    </div>
+</main>
