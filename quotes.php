@@ -751,4 +751,9 @@
         "text"   => "Code never lies, comments sometimes do.",
         "author" => "Ron Jeffries"
     ],
+    [
+        "text"   => "Be careful with each other, so you can be dangerous together.",
+        "author" => "Unknown"
+    ],
+    
 ];

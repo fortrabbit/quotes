@@ -276,6 +276,10 @@
         "author": "Alan J. Perlis"
     },
     {
+        "text": "People that hate cats will come back as mice in their next life.",
+        "author": "Faith Resnick"
+    },
+    {
         "text": "Perl - The only language that looks the same before and after RSA encryption.",
         "author": "Keith Bostic"
     },
@@ -708,6 +712,10 @@
         "author": "Daniel Bryant"
     },
     {
+        "text": "If you can't deploy your services independently then they aren't microservices.",
+        "author": "Daniel Bryant"
+    },
+    {
         "text": "No one hates software more than software developers.",
         "author": "Jeff Atwood"
     },
@@ -742,5 +750,9 @@
     {
         "text": "Code never lies, comments sometimes do.",
         "author": "Ron Jeffries"
+    },
+    {
+        "text": "Be careful with each other, so you can be dangerous together.",
+        "author": "Unknown"
     }
 ]
