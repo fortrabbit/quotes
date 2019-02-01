@@ -755,5 +755,8 @@
         "text"   => "Be careful with each other, so you can be dangerous together.",
         "author" => "Unknown"
     ],
-    
+    [
+        "text"   => "When making a PR to a major project, you have to \"sell\" that feature / contribution. You have to be convincing on why it belongs there. The maintainer is going to be the one babysitting that code forever.",
+        "author" => "Taylor Otwell"
+    ],
 ];
