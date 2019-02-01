@@ -763,4 +763,8 @@
         "text"   => "Be the change you wish was made. Share the lessons you wish you'd been taught. Make the sacrifices you wish others had made.",
         "author" => "David Heinemeier Hansson"
     ],
+    [
+        "text"   => "The only way to achieve flexibility is to make things as simple and easy to change as you can.",
+        "author" => "Casey Brant"
+    ],
 ];
