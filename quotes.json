@@ -756,7 +756,15 @@
         "author": "Unknown"
     },
     {
-        "text": "If you make something idiot proof, someone will just make a better idiot.",
-        "author": "Unknown"
+        "text": "When making a PR to a major project, you have to \"sell\" that feature \/ contribution. You have to be convincing on why it belongs there. The maintainer is going to be the one babysitting that code forever.",
+        "author": "Taylor Otwell"
+    },
+    {
+        "text": "Be the change you wish was made. Share the lessons you wish you'd been taught. Make the sacrifices you wish others had made.",
+        "author": "David Heinemeier Hansson"
+    },
+    {
+        "text": "The only way to achieve flexibility is to make things as simple and easy to change as you can.",
+        "author": "Casey Brant"
     }
 ]
